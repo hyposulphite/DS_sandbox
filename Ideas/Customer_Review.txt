@@ -1,0 +1,12 @@
+Author: Tianyang Zhou
+
+We can try to pull customer review from websites like Amazon, Yelp, TripAdvisor or Hotels.com. Several possible projects here:
+1. Summarize topics from users' review. Understand what people like most and worry most about the product/hotel.
+2. Understand how ratings are related to users' review. This can be conducted in two ways:
+	a. Use user's rating as a label and analyze sentiment
+	b. Check if there is significant difference between review sentiment and rating (unfair or fake rating)
+3. Detect if there is any fraud (this is hard since we don't have labels, but being hard means we have a lot to improve). Several ideas here:
+	a. Check superficial text appearance, like all upcase, many punctuation, etc.
+	b. Check highly similar or repeated comments.
+	c. Some hackers might randomly sample good comments and put them on. In this way good comments are like doubled.
+	d. ... Anyway review fraud is hard but interesting. Just be creative on what would we do if we are going to hack :XXXD
