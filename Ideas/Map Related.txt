@@ -1,0 +1,12 @@
+I notice that Google Maps actually has a roads API which provides a lot of functionalities:
+
+* Snap to roads
+* Nearest roads
+* Speed limits
+
+They also have distance matrix as well as travel time estimation (based on current and historical information). Moreover, there is another API to translate long/lat to address and vice versa. 
+
+I am not sure what exactly can be done with all those functionalities but it seems that a lot can be done.
+
+Moreover, google maps API has Python library and if one look hard enough, it seems that someone has created a R package(Not on CRAN): https://github.com/DerekYves/placement. 
+
